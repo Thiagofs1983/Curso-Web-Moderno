@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="#inicio">
+                <img src="imagens/face.png" class="logoFace">
+            </a>
+        </div>
+        <div class="face">facebook</div>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#inicio">Linha do Tempo</a>
+                </li>
+                <li>
+                    <a href="#perfil">Perfil</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <p>
+        <img src="imagens/thiago.png" class="fotoPerfil"
+        height="100" width="100" align="left">
+    </p>
+    <p class="texto">Thiago Fonseca de Souza</p>
+    <br><br>
+
+    <div>
+        <select name="estado">
+            <option value="MG">Minas Gerais</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+        </select>
+    </div>
+
+    <div>
+        <select name="cidade">
+            <option value="BH">Belo Horizonte</option>
+            <option value="CT">Contagem</option>
+            <option value="BT">Betim</option>
+        </select>
+    </div>
+
+   
+</body>
+
+<style>
+
+    body {
+        background-color: rgb(242, 244, 250);
+    }
+
+    .cabecalho {
+        display: flex;
+        height: 60px;
+        align-items: center;
+        border-bottom: solid 5px blue;
+        font-size: 19px;
+        
+    }
+
+    .logoFace {
+        border-radius: 50%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    .face {
+        display: flex;
+        color: blue;
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    .menu ul {
+        display: flex;
+        list-style: none;
+        padding: 5px;
+    }
+    
+    .menu {
+        align-self: flex-end;
+    }
+
+    .cabecalho a {
+        text-decoration: none;
+        
+    }
+
+    .menu a {
+        background-color: blue;
+        color: #fff;
+        border-radius: 30px;
+        padding: 10px 15px;
+        margin: 5px;
+        transition: 0.2s;
+        
+        
+    }
+
+    .menu a:hover {
+        border: solid blue;
+        background-color: #fff;
+        color: blue;
+    }
+
+    .menu a:active {
+        background-color: blue;
+        color: rgb(255, 255, 255);
+    }
+</style>
+</html>
